@@ -1,0 +1,95 @@
+.cardReturn{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 400px;
+  border: solid 1px #D7D7D7;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 20px;
+
+  background: white;
+  
+}
+.card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  border: 1px solid #D7D7D7;
+  margin-bottom: 15px;
+}
+
+.cardHeader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-bottom: solid 1px #D7D7D7;
+  margin-bottom: 15px;
+}
+
+.cardMainInfo{
+  display: flex;
+}
+
+.cardEmail{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  justify-content: center;
+}
+.cardMainInfo .cardEmail h2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cardHeaderMenu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsBar{
+  display: flex;
+  justify-content: right;
+}
+
+.card button {
+ margin-left: 10px;
+ margin-bottom: 5px;
+ border: none;
+ background: white;
+ font-weight: 400;
+ transition: color 0.2s;
+ cursor: pointer;
+ font-size: 14px;
+}
+
+.card button:hover {
+  color: #4186C4;
+ }
+
+.card h1{
+  font-size: 20px;
+  font-weight: 500;
+  color: #4186C4;
+}
+.card h2{
+  font-size: 14px;
+  font-weight: 500;
+}
+.card h2 small{
+  font-size: 14px;
+  font-weight: 400;
+  color: #323232;
+}
+
+.cardData{
+  display: flex;
+  flex-direction: column;
+}

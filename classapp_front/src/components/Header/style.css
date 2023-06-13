@@ -1,0 +1,39 @@
+.header {
+  background: #ffffff;
+  height: 3rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: #D7D7D7 1px solid;
+}
+.header h1 {
+  margin-left: 20px;
+  font-size: 28px;
+  color: #000000;
+}
+
+.header h1 strong {
+  color: #4186C4;
+  font-weight: 700;
+}
+
+
+.menu{
+  display: flex; 
+}
+
+.menu h2 {
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #323232;
+  transition: all 0.2s;
+}
+
+.menu h2:hover {
+  color: #4186C4;
+  cursor: pointer;
+  font-weight: 700;
+}

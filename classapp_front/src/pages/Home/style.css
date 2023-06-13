@@ -1,0 +1,7 @@
+.areaCards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+body{
+  -webkit-font-smoothing:antialiased;
+}

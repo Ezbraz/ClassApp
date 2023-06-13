@@ -1,0 +1,14 @@
+.footer{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #D7D7D7;
+}
+
+.footer h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}

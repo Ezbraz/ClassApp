@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body, input, button{
+  font-size: 16px;
+  font-family: 'poppins', sans-serif;
+  color: #323232;
+  background-color: #f3f3f3;
+  
+}
+
